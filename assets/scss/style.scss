@@ -29,21 +29,30 @@ body {
                     height: 48px;
                     margin-top: 56px;
                     margin-left: 64px;
+                    @media (max-width: 375px) {
+                        margin-left: 16px;
+                        margin-top: 26px;
+                    }
                     .rent {
                         position: static;
                         font-style: normal;
                         font-weight: bold;
                         font-size: 40px;
                         line-height: 120%;
-                        @media (max-width: 375px) {
-                            font-size: 24px;
-                        }
+
                         .whatever {
                             color: #4959ff;
                         }
                         select {
-                            width: 22px;
+                            width: 18px;
+                            border: none;
+                            background: none;
                             cursor: pointer;
+                        }
+                        @media (max-width: 375px) {
+                            font-size: 24px;
+                            width: 194px;
+                            height: 29px;
                         }
                     }
                 }
@@ -53,15 +62,28 @@ body {
                     margin-top: 56px;
                     margin-right: 64px;
                     cursor: pointer;
+                    @media (max-width: 375px) {
+                        margin-top: 24px;
+                        margin-right: 16px;
+                    }
                     .main__container-nav-buttonAdd-text {
-                        width: 83px;
-                        right: 160px;
                         font-style: normal;
                         font-weight: bold;
                         font-size: 20px;
                         line-height: 140%;
                         color: #4959ff;
                         margin-top: 10px;
+                        @media (max-width: 375px) {
+                            font-size: 16px;
+                            line-height: 136%;
+                            margin-top: 7px;
+                        }
+                    }
+                    img {
+                        @media (max-width: 375px) {
+                            width: 32px;
+                            height: 32px;
+                        }
                     }
                 }
             }
@@ -72,6 +94,9 @@ body {
                 padding: 0px;
                 margin-top: 40px;
                 margin-left: 40px;
+                @media (max-width: 375px) {
+                    margin-top: 0px;
+                }
                 .card-aircraft {
                     display: flex;
                     flex-basis: 373px;
@@ -80,6 +105,10 @@ body {
                     height: 164px;
                     margin-right: 32px;
                     margin-bottom: 32px;
+                    @media (max-width: 375px) {
+                        margin-bottom: 12px;
+                        height: 151px;
+                    }
                     img {
                         width: 88px;
                         height: 88px;

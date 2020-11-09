@@ -3,7 +3,7 @@
     <div class="image__lot">
       <img class="image__lot-main" :src="vehicle.image" :alt="vehicle.name" />
     </div>
-    <div class="aaa">
+    <div class="all-discription">
       <div class="info__lot">
         <div class="info__lot-title">{{ vehicle.name }}</div>
         <ul class="info__lot-links">

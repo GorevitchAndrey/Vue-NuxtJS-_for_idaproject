@@ -1,29 +1,46 @@
 @import "header.scss";
+
 .main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1308px;
     margin-top: 56px;
+    @media (max-width: 375px) {
+        margin-top: 8px;
+    }
+    .image__lot {
+        @media (max-width: 375px) {
+            margin: auto;
+        }
+    }
     .image__lot-main {
         width: 712px;
         height: 700px;
-
         border-radius: 24px;
-        @media (max-width: 800px) {
+        @media (max-width: 375px) {
             width: 343px;
             height: 332px;
+            margin: auto;
         }
     }
-    .aaa {
+    .all-discription {
         display: flex;
         flex-direction: column;
+        @media (max-width: 375px) {
+            margin-top: 22px;
+            margin-left: 16px;
+            margin-right: 16px;
+        }
         .info__lot-title {
             font-style: normal;
             font-weight: bold;
             font-size: 40px;
             line-height: 120%;
             color: #012345;
+            @media (max-width: 375px) {
+                font-size: 24px;
+            }
         }
         .info__lot-links {
             display: flex;
@@ -34,6 +51,9 @@
             li {
                 list-style-type: none;
                 margin-right: 32px;
+                @media (max-width: 375px) {
+                    margin-right: 20px;
+                }
             }
         }
         .info__lot-description {
@@ -44,11 +64,19 @@
             line-height: 146%;
             color: #677b8f;
             margin-top: 32px;
+            @media (max-width: 375px) {
+                width: 343px;
+                font-weight: 300;
+            }
         }
         .container__description {
             display: flex;
             flex-direction: column;
             margin-top: 32px;
+            @media (max-width: 375px) {
+                margin-bottom: 115px;
+            }
+
             .info__lot-features {
                 font-style: normal;
                 font-weight: bold;
@@ -65,13 +93,27 @@
                     background: #f3f4f7;
                     border-radius: 16px;
                     margin-right: 24px;
+                    @media (max-width: 375px) {
+                        width: 64px;
+                        height: 80px;
+                        margin-right: 16px;
+                    }
                     img {
                         margin-top: 36px;
                         margin-left: 25px;
+                        @media (max-width: 375px) {
+                            margin-top: 31px;
+                            margin-left: 21px;
+                            width: 24px;
+                            height: 24px;
+                        }
                     }
                 }
                 .features__discription-one {
                     width: 431px;
+                    @media (max-width: 375px) {
+                        width: 263px;
+                    }
                 }
                 .features__discription-one-title {
                     font-family: Codec Pro;
@@ -80,6 +122,14 @@
                     font-size: 16px;
                     line-height: 152%;
                     color: #012345;
+                    @media (max-width: 375px) {
+                        margin-top: 0px;
+                    }
+                }
+                .features__discription-one-text {
+                    @media (max-width: 375px) {
+                        margin-bottom: 0px;
+                    }
                 }
             }
             .info__lot-features-two {
@@ -91,14 +141,27 @@
                     background: #f3f4f7;
                     border-radius: 16px;
                     margin-right: 24px;
+                    @media (max-width: 375px) {
+                        width: 64px;
+                        height: 80px;
+                        margin-right: 16px;
+                    }
                     img {
                         margin-top: 36px;
                         margin-left: 25px;
+                        @media (max-width: 375px) {
+                            margin-top: 31px;
+                            margin-left: 21px;
+                            width: 24px;
+                            height: 24px;
+                        }
                     }
                 }
                 .features__discription-two {
                     width: 431px;
-                    height: 40px;
+                    @media (max-width: 375px) {
+                        width: 263px;
+                    }
                 }
                 .features__discription-two-title {
                     font-style: normal;
@@ -106,6 +169,14 @@
                     font-size: 16px;
                     line-height: 152%;
                     color: #012345;
+                    @media (max-width: 375px) {
+                        margin-top: 0px;
+                    }
+                }
+                .features__discription-two-text {
+                    @media (max-width: 375px) {
+                        margin-bottom: 0px;
+                    }
                 }
             }
         }
@@ -116,6 +187,13 @@
             margin-top: 45px;
             background: #f3f4f7;
             border-radius: 16px;
+            @media (max-width: 375px) {
+                width: 343px;
+                height: 68px;
+                position: fixed;
+                margin-top: 285px;
+                box-shadow: 0 0 10px rgba(95, 95, 95, 0.5);
+            }
             .info__lot-buy-price {
                 margin-left: 32px;
                 margin-top: 26px;
@@ -126,6 +204,11 @@
                 color: #012345;
                 span {
                     color: palevioletred;
+                }
+                @media (max-width: 375px) {
+                    font-size: 16px;
+                    width: 119px;
+                    display: inline-table;
                 }
             }
             .info__lot-buy-btn {
@@ -140,14 +223,21 @@
                     background: #2e3ffd;
                 }
                 .info__lot-buy-p {
-                    margin-left: 32px;
+                    text-align: center;
                     color: white;
                     font-style: normal;
                     font-weight: bold;
-                    font-size: 16px;
-                    line-height: 14px;
+                    font-size: 14px;
+                    line-height: 12px;
+                }
+                @media (max-width: 375px) {
+                    width: 111px;
+                    height: 44px;
+                    margin-left: 65px;
                 }
             }
         }
     }
+}
+@media (max-width: 375px) {
 }
