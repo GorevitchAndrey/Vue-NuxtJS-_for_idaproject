@@ -1,0 +1,242 @@
+body {
+  position: relative;
+  margin: 0 auto;
+}
+
+body .container {
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+body .container .header {
+  display: flex;
+  max-width: 1312px;
+  height: 56px;
+  margin-top: 10px;
+}
+
+body .container .logo__img {
+  margin-top: 52px;
+}
+
+body .container .logo__text {
+  width: 104.2px;
+  height: 20.62px;
+  margin-top: 65.5px;
+  margin-left: 17.9px;
+}
+
+body .container .header__link-one {
+  margin-top: 64px;
+  margin-left: 64.9px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #677b8f;
+}
+
+body .container .header__link-night-mod {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  margin-top: 66px;
+  margin-left: 288px;
+}
+
+body .container .header__link-night-mod .link-night-mod__text {
+  margin-left: 18px;
+  color: #677b8f;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+body .container .header__message {
+  width: 24px;
+  height: 24px;
+  margin-top: 67px;
+  margin-left: 107px;
+}
+
+body .container .header__notifications {
+  width: 24px;
+  height: 24px;
+  margin-top: 66px;
+  margin-left: 29px;
+}
+
+body .container .header__user {
+  display: flex;
+  margin-top: 48px;
+  margin-left: 53px;
+}
+
+body .container .header__user .header__user-name {
+  width: 109px;
+  height: 24px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 152%;
+  color: #012345;
+  margin-top: 16px;
+}
+
+body .container .header__user .header__user-icon {
+  width: 56px;
+  height: 56px;
+  margin-left: 16px;
+}
+
+body .container .header__user .header__user-icon img {
+  border-radius: 50%;
+}
+
+body .container .main__container {
+  margin-bottom: 48px;
+  background: #f3f4f7;
+  border-radius: 48px;
+  margin-top: 144px;
+
+  max-width: 1312px;
+}
+body .container .main__container .main__container-nav {
+  display: flex;
+  justify-content: space-between;
+}
+body .container .main__container .main__container-nav .main__container-nav-rent {
+  padding: 0px;
+  width: 313px;
+  height: 48px;
+  margin-top: 56px;
+  margin-left: 64px;
+}
+
+body .container .main__container .main__container-nav .main__container-nav-rent .rent {
+  position: static;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 120%;
+}
+
+body .container .main__container .main__container-nav .main__container-nav-rent .whatever {
+  color: #4959ff;
+}
+body .container .main__container .main__container-nav .main__container-nav-rent select {
+  width: 18px;
+}
+body .container .main__container .main__container-nav-buttonAdd {
+  display: flex;
+  width: 151px;
+  height: 48px;
+  margin-top: 56px;
+  margin-right: 64px;
+}
+
+body .container .main__container .main__container-nav-buttonAdd .main__container-nav-buttonAdd-text {
+  width: 83px;
+  right: 160px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 140%;
+  color: #4959ff;
+  margin-top: 10px;
+}
+
+body .container .main__container .main__container-nav-buttonAdd img {
+  width: 48px;
+  height: 48px;
+}
+
+body .container .main__container .main__container-card-aircraft {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px;
+  margin-top: 40px;
+  margin-left: 64px;
+}
+
+body .container .main__container .main__container-card-aircraft .card-aircraft {
+  display: flex;
+  background: #fcfcfc;
+  border-radius: 32px;
+  max-width: 373.33px;
+  height: 164px;
+  margin-right: 32px;
+  margin-bottom: 32px;
+}
+
+body .container .main__container .main__container-card-aircraft .card-aircraft img {
+  width: 88px;
+  height: 88px;
+  margin-top: 24px;
+  margin-left: 32px;
+  border-radius: 24px;
+}
+
+body .container .main__container .main__container-card-aircraft .card-aircraft .product-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: 24px;
+  margin-top: 40px;
+  margin-right: 21px;
+}
+
+body
+  .container
+  .main__container
+  .main__container-card-aircraft
+  .card-aircraft
+  .product-description
+  .product-description-title {
+  width: 125px;
+  height: 14px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 14px;
+  color: #012345;
+}
+
+body
+  .container
+  .main__container
+  .main__container-card-aircraft
+  .card-aircraft
+  .product-description
+  .product-description-decription {
+  width: 197px;
+  height: 36px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 148%;
+  margin-top: 12px;
+  color: #677b8f;
+}
+
+body
+  .container
+  .main__container
+  .main__container-card-aircraft
+  .card-aircraft
+  .product-description
+  .product-description-price {
+  width: 58px;
+  height: 21px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 148%;
+  margin-top: 16px;
+  color: #f84ab3;
+}

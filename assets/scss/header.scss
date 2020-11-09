@@ -1,0 +1,117 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1312px;
+    height: 56px;
+    margin-top: 48px;
+    @media (max-width: 375px) {
+        width: 376px;
+    }
+    .first-block {
+        display: flex;
+        flex-wrap: wrap;
+        @media (max-width: 375px) {
+            padding-left: 16px;
+            width: 113px;
+        }
+        .logo__text {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+            color: #012345;
+            margin-left: 17.9px;
+            @media (max-width: 375px) {
+                font-size: 16px;
+            }
+        }
+        .header__link-one {
+            margin-left: 64.9px;
+            font-style: normal;
+            font-size: 16px;
+            margin-top: 10px;
+            color: #677b8f;
+            @media (max-width: 375px) {
+                display: none;
+            }
+        }
+    }
+    .second-block {
+        display: flex;
+        flex-wrap: wrap;
+        @media (max-width: 375px) {
+            padding-right: 16px;
+        }
+        .header__link-night-mod {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            cursor: pointer;
+            img {
+                margin-top: 10px;
+            }
+            .link-night-mod__text {
+                margin-left: 18px;
+                color: #677b8f;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                margin-top: 10px;
+                @media (max-width: 375px) {
+                    display: none;
+                }
+            }
+        }
+        .header__message {
+            margin-left: 107px;
+            margin-top: 10px;
+            cursor: pointer;
+            @media (max-width: 375px) {
+                margin-left: 19px;
+                width: 20px;
+                height: 20px;
+            }
+        }
+        .header__notifications {
+            margin-left: 29px;
+            margin-top: 10px;
+            cursor: pointer;
+            @media (max-width: 375px) {
+                margin-left: 19px;
+                width: 20px;
+                height: 20px;
+            }
+        }
+        .header__user {
+            display: flex;
+            margin-left: 53px;
+            @media (max-width: 375px) {
+                margin-left: 24px;
+            }
+            .header__user-name {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 152%;
+                margin-top: 10px;
+                color: #012345;
+                @media (max-width: 375px) {
+                    display: none;
+                }
+            }
+            .header__user-icon {
+                margin-left: 16px;
+                @media (max-width: 375px) {
+                    margin-left: 0px;
+                }
+                img {
+                    border-radius: 50%;
+                    @media (max-width: 375px) {
+                        width: 32px;
+                        height: 32px;
+                    }
+                }
+            }
+        }
+    }
+}

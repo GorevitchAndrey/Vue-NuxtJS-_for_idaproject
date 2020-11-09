@@ -1,0 +1,61 @@
+.mainerror {
+    height: 708px;
+    background: #f3f4f7;
+    border-radius: 48px;
+    @media (max-width: 375px) {
+        width: 375px;
+        height: 684px;
+        border-radius: 24px;
+    }
+    .blok_info {
+        display: flex;
+        flex-direction: column;
+        height: 180px;
+        margin: 0 auto;
+        padding-top: 264px;
+        .text_error {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 120%;
+            text-align: center;
+            margin: 0px;
+            color: #012345;
+
+            @media (max-width: 375px) {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 120%;
+            }
+        }
+        .text_pleaseRefresh {
+            text-align: center;
+            margin-top: 24px;
+            color: #677b8f;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 146%;
+            @media (max-width: 375px) {
+            }
+        }
+        .button {
+            background: #4959ff;
+            border-radius: 12px;
+            width: 161px;
+            height: 48px;
+            width: 161px;
+            height: 48px;
+            text-decoration: none;
+            margin: auto;
+            .button_text {
+                color: white;
+                text-align: center;
+            }
+            @media (max-width: 375px) {
+                width: 133px;
+            }
+        }
+    }
+}

@@ -1,0 +1,153 @@
+@import "header.scss";
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1308px;
+    margin-top: 56px;
+    .image__lot-main {
+        width: 712px;
+        height: 700px;
+
+        border-radius: 24px;
+        @media (max-width: 800px) {
+            width: 343px;
+            height: 332px;
+        }
+    }
+    .aaa {
+        display: flex;
+        flex-direction: column;
+        .info__lot-title {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 120%;
+            color: #012345;
+        }
+        .info__lot-links {
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            padding: 0px;
+            margin-bottom: 0px;
+            li {
+                list-style-type: none;
+                margin-right: 32px;
+            }
+        }
+        .info__lot-description {
+            width: 532px;
+            font-style: normal;
+            font-weight: 470;
+            font-size: 14px;
+            line-height: 146%;
+            color: #677b8f;
+            margin-top: 32px;
+        }
+        .container__description {
+            display: flex;
+            flex-direction: column;
+            margin-top: 32px;
+            .info__lot-features {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 21px;
+                color: #012345;
+            }
+            .info__lot-features-one {
+                display: flex;
+                margin-top: 32px;
+                .info__lot-first-img {
+                    width: 80px;
+                    height: 96px;
+                    background: #f3f4f7;
+                    border-radius: 16px;
+                    margin-right: 24px;
+                    img {
+                        margin-top: 36px;
+                        margin-left: 25px;
+                    }
+                }
+                .features__discription-one {
+                    width: 431px;
+                }
+                .features__discription-one-title {
+                    font-family: Codec Pro;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 152%;
+                    color: #012345;
+                }
+            }
+            .info__lot-features-two {
+                display: flex;
+                margin-top: 16px;
+                .info__lot-two-img {
+                    width: 80px;
+                    height: 96px;
+                    background: #f3f4f7;
+                    border-radius: 16px;
+                    margin-right: 24px;
+                    img {
+                        margin-top: 36px;
+                        margin-left: 25px;
+                    }
+                }
+                .features__discription-two {
+                    width: 431px;
+                    height: 40px;
+                }
+                .features__discription-two-title {
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 152%;
+                    color: #012345;
+                }
+            }
+        }
+        .info__lot-buy {
+            display: flex;
+            width: 536px;
+            height: 80px;
+            margin-top: 45px;
+            background: #f3f4f7;
+            border-radius: 16px;
+            .info__lot-buy-price {
+                margin-left: 32px;
+                margin-top: 26px;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 140%;
+                color: #012345;
+                span {
+                    color: palevioletred;
+                }
+            }
+            .info__lot-buy-btn {
+                width: 136px;
+                height: 48px;
+                margin-left: 187px;
+                margin-top: 16px;
+                background: #4959ff;
+                border-radius: 12px;
+                cursor: pointer;
+                &:hover {
+                    background: #2e3ffd;
+                }
+                .info__lot-buy-p {
+                    margin-left: 32px;
+                    color: white;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 14px;
+                }
+            }
+        }
+    }
+}

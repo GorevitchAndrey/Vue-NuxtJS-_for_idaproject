@@ -1,0 +1,62 @@
+%input_form {
+    height: 56px;
+    width: 456px;
+    border-radius: 12px;
+    margin-top: 16px;
+    margin: 0 auto;
+    border: none;
+}
+.modal {
+    background: #fcfcfc;
+    width: 600px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 712px;
+    position: absolute;
+    top: 0px;
+    border-radius: 48px;
+
+    .text {
+        margin-left: 72px;
+        margin-top: 64px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 120%;
+        color: #012345;
+    }
+    .addPost {
+        margin: 0 auto;
+        background: #f3f4f7;
+        width: 456px;
+        height: 348px;
+        border-radius: 24px;
+        input {
+            margin-top: 150px;
+            margin-left: 204px;
+        }
+    }
+    .nameInp {
+        @extend %input_form;
+        background: #f3f4f7;
+    }
+    .descriptionInp {
+        @extend %input_form;
+        background: #f3f4f7;
+    }
+    .priceInp {
+        @extend %input_form;
+        background: #f3f4f7;
+    }
+    .btn {
+        @extend %input_form;
+        background: #4959ff;
+        color: white;
+        cursor: pointer;
+        &:hover {
+            background: #2e3ffd;
+        }
+    }
+}

@@ -1,0 +1,132 @@
+body {
+    max-width: 1312px;
+    position: relative;
+    margin: 0 auto;
+    .container {
+        margin: 0 auto;
+        padding: 0px 20px;
+        min-height: 100vh;
+        @media (max-width: 375px) {
+            padding: 0px;
+        }
+        //-----
+        @import "header.scss";
+        //-----
+        .main__container {
+            margin-bottom: 48px;
+            background: #f3f4f7;
+            border-radius: 48px;
+            margin-top: 56px;
+            max-width: 1312px;
+            @media (max-width: 375px) {
+                margin-top: 8px;
+            }
+            .main__container-nav {
+                display: flex;
+                justify-content: space-between;
+                .main__container-nav-rent {
+                    padding: 0px;
+                    height: 48px;
+                    margin-top: 56px;
+                    margin-left: 64px;
+                    .rent {
+                        position: static;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 40px;
+                        line-height: 120%;
+                        @media (max-width: 375px) {
+                            font-size: 24px;
+                        }
+                        .whatever {
+                            color: #4959ff;
+                        }
+                        select {
+                            width: 22px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .main__container-nav-buttonAdd {
+                    display: flex;
+                    height: 48px;
+                    margin-top: 56px;
+                    margin-right: 64px;
+                    cursor: pointer;
+                    .main__container-nav-buttonAdd-text {
+                        width: 83px;
+                        right: 160px;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 20px;
+                        line-height: 140%;
+                        color: #4959ff;
+                        margin-top: 10px;
+                    }
+                }
+            }
+            .main__container-card-aircraft {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                padding: 0px;
+                margin-top: 40px;
+                margin-left: 40px;
+                .card-aircraft {
+                    display: flex;
+                    flex-basis: 373px;
+                    background: #fcfcfc;
+                    border-radius: 32px;
+                    height: 164px;
+                    margin-right: 32px;
+                    margin-bottom: 32px;
+                    img {
+                        width: 88px;
+                        height: 88px;
+                        margin-top: 24px;
+                        margin-left: 32px;
+                        border-radius: 24px;
+                    }
+                    .product-description {
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 24px;
+                        margin-top: 40px;
+                        margin-right: 21px;
+                        .product-description-title {
+                            height: 14px;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 16px;
+                            line-height: 14px;
+                            color: #012345;
+                            cursor: pointer;
+                        }
+                        .product-description-decription {
+                            height: 36px;
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 12px;
+                            line-height: 148%;
+                            margin-top: 12px;
+                            color: #677b8f;
+                        }
+                        .product-description-price {
+                            height: 21px;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 14px;
+                            line-height: 148%;
+                            margin-top: 16px;
+                            color: #f84ab3;
+                        }
+                    }
+                }
+            }
+        }
+        //-----
+        @import "style_secondPage-spacification.scss";
+        @import "modal.scss";
+        @import "occurred.scss";
+    }
+}
